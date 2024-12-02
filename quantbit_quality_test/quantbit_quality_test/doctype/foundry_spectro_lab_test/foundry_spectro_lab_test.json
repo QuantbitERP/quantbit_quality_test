@@ -1,0 +1,203 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-10-16 12:16:39.427948",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "section_break_myoo",
+  "company",
+  "column_break_6zir",
+  "posting_date",
+  "pouring_entry_details_section",
+  "pouring_id",
+  "column_break_vvta",
+  "heat_date",
+  "column_break_bnsp",
+  "heat_number",
+  "temperature_details",
+  "furnace_temp",
+  "column_break_ghby",
+  "laddle_temp",
+  "foundry_weight_test_details_section",
+  "spectro_details",
+  "lab_supervisor_details_section",
+  "supervisor_id",
+  "column_break_g9xe",
+  "supervisor_name",
+  "remark_section",
+  "remark",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "FSLT-"
+  },
+  {
+   "fieldname": "section_break_myoo",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_6zir",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "pouring_entry_details_section",
+   "fieldtype": "Section Break",
+   "label": "Pouring Entry Details"
+  },
+  {
+   "fieldname": "pouring_id",
+   "fieldtype": "Link",
+   "label": " Pouring ID",
+   "options": "Pouring",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_vvta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.heat_date",
+   "fieldname": "heat_date",
+   "fieldtype": "Date",
+   "label": "Heat Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_bnsp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.heat_number",
+   "fieldname": "heat_number",
+   "fieldtype": "Data",
+   "label": "Heat Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "temperature_details",
+   "fieldtype": "Section Break",
+   "label": "Temperature Details"
+  },
+  {
+   "fieldname": "furnace_temp",
+   "fieldtype": "Float",
+   "label": "Furnace Temperature (\u00b0C)",
+   "precision": "3"
+  },
+  {
+   "fieldname": "column_break_ghby",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "laddle_temp",
+   "fieldtype": "Float",
+   "label": "Laddle Temperature (\u00b0C)",
+   "precision": "3"
+  },
+  {
+   "fieldname": "foundry_weight_test_details_section",
+   "fieldtype": "Section Break",
+   "label": "Foundry Spectro Lab Test Details"
+  },
+  {
+   "fieldname": "spectro_details",
+   "fieldtype": "Table",
+   "label": "Foundry Spectro Lab Test Details",
+   "options": "Foundry Spectro Lab Test Details"
+  },
+  {
+   "fieldname": "lab_supervisor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Lab Supervisor Details"
+  },
+  {
+   "fieldname": "supervisor_id",
+   "fieldtype": "Link",
+   "label": "Lab Supervisor ID",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_g9xe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "supervisor_id.employee_name",
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "label": "Lab Supervisor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remark_section",
+   "fieldtype": "Section Break",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text Editor",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Foundry Weight Test",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-30 10:59:50.628043",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Foundry Spectro Lab Test",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

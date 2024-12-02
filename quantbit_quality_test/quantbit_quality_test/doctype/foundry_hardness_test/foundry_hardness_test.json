@@ -1,0 +1,248 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-10-15 13:29:48.608269",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "section_break_lj4j",
+  "amended_from",
+  "company_details_section",
+  "company",
+  "column_break_zdje",
+  "posting_date",
+  "customer_details_section",
+  "customer",
+  "column_break_k2vq",
+  "customer_name",
+  "pouring_entry_details_section",
+  "pouring_id",
+  "column_break_trpy",
+  "heat_date",
+  "column_break_wzo3",
+  "heat_number",
+  "column_break_c9sz",
+  "grade",
+  "column_break_kavq",
+  "from_bhn",
+  "column_break_raky",
+  "to_bhn",
+  "section_break_hoa8",
+  "hardness_details",
+  "lab_supervisor_details_section",
+  "supervisor_id",
+  "column_break_0o5p",
+  "supervisor_name",
+  "remark_section",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "FHT-"
+  },
+  {
+   "fieldname": "section_break_lj4j",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Foundry Hardness Test",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "company_details_section",
+   "fieldtype": "Section Break",
+   "label": "Company Details"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zdje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "customer_details_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Details"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_k2vq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "pouring_entry_details_section",
+   "fieldtype": "Section Break",
+   "label": "Pouring Entry Details"
+  },
+  {
+   "fieldname": "pouring_id",
+   "fieldtype": "Link",
+   "label": "Pouring ID",
+   "options": "Pouring",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_trpy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.heat_date",
+   "fieldname": "heat_date",
+   "fieldtype": "Date",
+   "label": "Heat Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_wzo3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.heat_number",
+   "fieldname": "heat_number",
+   "fieldtype": "Data",
+   "label": "Heat Number",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_c9sz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.grade",
+   "fieldname": "grade",
+   "fieldtype": "Data",
+   "label": "Grade",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kavq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.from_bhn",
+   "fieldname": "from_bhn",
+   "fieldtype": "Float",
+   "label": "From BHN",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_raky",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "pouring_id.to_bhn",
+   "fieldname": "to_bhn",
+   "fieldtype": "Float",
+   "label": "To BHN",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_hoa8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hardness_details",
+   "fieldtype": "Table",
+   "label": "Foundry Hardness Test Details",
+   "options": "Foundry Hardness Test Details"
+  },
+  {
+   "fieldname": "lab_supervisor_details_section",
+   "fieldtype": "Section Break",
+   "label": "Lab Supervisor Details"
+  },
+  {
+   "fieldname": "supervisor_id",
+   "fieldtype": "Link",
+   "label": "Lab Supervisor ID",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_0o5p",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "supervisor_id.employee_name",
+   "fieldname": "supervisor_name",
+   "fieldtype": "Data",
+   "label": "Lab Supervisor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remark_section",
+   "fieldtype": "Section Break",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text Editor",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-11-30 10:59:13.103280",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Foundry Hardness Test",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,470 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-16 12:18:42.207802",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_sqnka",
+  "item_code",
+  "column_break_p5qg",
+  "item_name",
+  "column_break_jafnt",
+  "quantity",
+  "spectro_reading_details_section",
+  "column_break_z4do",
+  "column_break_sbkm",
+  "type",
+  "c",
+  "si",
+  "mn",
+  "p",
+  "s",
+  "cr",
+  "cu",
+  "mg",
+  "tc",
+  "ce",
+  "other",
+  "other_",
+  "sn",
+  "ni",
+  "mo",
+  "pb",
+  "column_break_dwgf",
+  "column_break_9wp6",
+  "initial",
+  "initial_c",
+  "initial_si",
+  "initial_mn",
+  "initial_p",
+  "initial_s",
+  "initial_cr",
+  "initial_cu",
+  "initial_mg",
+  "initial_tc",
+  "initial_ce",
+  "in_other",
+  "in_other_",
+  "initial_sn",
+  "initial_ni",
+  "initial_mo",
+  "initial_pb",
+  "column_break_kkbf",
+  "column_break_ih6o",
+  "final",
+  "final_c",
+  "final_si",
+  "final_mn",
+  "final_p",
+  "final_s",
+  "final_cr",
+  "final_cu",
+  "final_mg",
+  "final_tc",
+  "final_ce",
+  "final_other",
+  "final_other_",
+  "final_sn",
+  "final_ni",
+  "final_mo",
+  "final_pb",
+  "section_break_ndigm",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_sqnka",
+   "fieldtype": "Section Break",
+   "label": "Casting Item Details"
+  },
+  {
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Casting Item Code",
+   "options": "Item",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_p5qg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Casting Item Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_jafnt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 1,
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Casting Quantity",
+   "precision": "2",
+   "read_only": 1
+  },
+  {
+   "fieldname": "spectro_reading_details_section",
+   "fieldtype": "Section Break",
+   "label": "Spectro Reading Details"
+  },
+  {
+   "fieldname": "column_break_z4do",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_sbkm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Heading",
+   "label": "Type"
+  },
+  {
+   "default": "C%",
+   "fieldname": "c",
+   "fieldtype": "Data",
+   "label": "C%"
+  },
+  {
+   "default": "Si%",
+   "fieldname": "si",
+   "fieldtype": "Data",
+   "label": "Si%"
+  },
+  {
+   "default": "Mn%",
+   "fieldname": "mn",
+   "fieldtype": "Data",
+   "label": "Mn%"
+  },
+  {
+   "default": "P%",
+   "fieldname": "p",
+   "fieldtype": "Data",
+   "label": "P%"
+  },
+  {
+   "default": "S%",
+   "fieldname": "s",
+   "fieldtype": "Data",
+   "label": "S%"
+  },
+  {
+   "default": "Cr%",
+   "fieldname": "cr",
+   "fieldtype": "Data",
+   "label": "Cr%"
+  },
+  {
+   "default": "Cu%",
+   "fieldname": "cu",
+   "fieldtype": "Data",
+   "label": "Cu%"
+  },
+  {
+   "default": "Mg%",
+   "fieldname": "mg",
+   "fieldtype": "Data",
+   "label": "Mg%"
+  },
+  {
+   "default": "T.C.%",
+   "fieldname": "tc",
+   "fieldtype": "Data",
+   "label": "T.C.%"
+  },
+  {
+   "default": "C.E.",
+   "fieldname": "ce",
+   "fieldtype": "Data",
+   "label": "C.E."
+  },
+  {
+   "default": "Others",
+   "fieldname": "other",
+   "fieldtype": "Data",
+   "label": "Others"
+  },
+  {
+   "default": "Others%",
+   "fieldname": "other_",
+   "fieldtype": "Data",
+   "label": "Others%"
+  },
+  {
+   "default": "Sn%",
+   "fieldname": "sn",
+   "fieldtype": "Data",
+   "label": "Sn%"
+  },
+  {
+   "default": "Ni%",
+   "fieldname": "ni",
+   "fieldtype": "Data",
+   "label": "Ni%"
+  },
+  {
+   "default": "Mo%",
+   "fieldname": "mo",
+   "fieldtype": "Data",
+   "label": "Mo%"
+  },
+  {
+   "default": "Pb%",
+   "fieldname": "pb",
+   "fieldtype": "Data",
+   "label": "Pb%"
+  },
+  {
+   "fieldname": "column_break_dwgf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_9wp6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "initial",
+   "fieldtype": "Heading",
+   "label": "Initial"
+  },
+  {
+   "fieldname": "initial_c",
+   "fieldtype": "Float",
+   "label": "Initial C%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_si",
+   "fieldtype": "Float",
+   "label": "Initial Si%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_mn",
+   "fieldtype": "Float",
+   "label": "Initial Mn%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_p",
+   "fieldtype": "Float",
+   "label": "Initial P%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_s",
+   "fieldtype": "Float",
+   "label": "Initial S%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_cr",
+   "fieldtype": "Float",
+   "label": "Initial Cr%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_cu",
+   "fieldtype": "Float",
+   "label": "Initial Cu%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_mg",
+   "fieldtype": "Float",
+   "label": "Initial Mg%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_tc",
+   "fieldtype": "Float",
+   "label": "Initial T.C.%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_ce",
+   "fieldtype": "Float",
+   "label": "Initial C.E.",
+   "precision": "3"
+  },
+  {
+   "fieldname": "in_other",
+   "fieldtype": "Float",
+   "label": "Initial Others",
+   "precision": "3"
+  },
+  {
+   "fieldname": "in_other_",
+   "fieldtype": "Float",
+   "label": "Initial Others%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_sn",
+   "fieldtype": "Float",
+   "label": "Initial Sn%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_ni",
+   "fieldtype": "Float",
+   "label": "Initial Ni%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_mo",
+   "fieldtype": "Float",
+   "label": "Initial Mo%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "initial_pb",
+   "fieldtype": "Float",
+   "label": "Initial Pb%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "column_break_kkbf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ih6o",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Heading",
+   "label": "Final"
+  },
+  {
+   "fieldname": "final_c",
+   "fieldtype": "Float",
+   "label": "Final C%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_si",
+   "fieldtype": "Float",
+   "label": "Final Si%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_mn",
+   "fieldtype": "Float",
+   "label": "Final Mn%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_p",
+   "fieldtype": "Float",
+   "label": "Final P%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_s",
+   "fieldtype": "Float",
+   "label": "Final S%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_cr",
+   "fieldtype": "Float",
+   "label": "Final Cr%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_cu",
+   "fieldtype": "Float",
+   "label": "Final Cu%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_mg",
+   "fieldtype": "Float",
+   "label": "Final Mg%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_tc",
+   "fieldtype": "Float",
+   "label": "Final T.C.%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_ce",
+   "fieldtype": "Float",
+   "label": "Final C.E.",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_other",
+   "fieldtype": "Float",
+   "label": "Final Others",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_other_",
+   "fieldtype": "Float",
+   "label": "Final Others%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_sn",
+   "fieldtype": "Float",
+   "label": "Final Sn%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_ni",
+   "fieldtype": "Float",
+   "label": "Final Ni%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_mo",
+   "fieldtype": "Float",
+   "label": "Final Mo%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "final_pb",
+   "fieldtype": "Float",
+   "label": "Final Pb%",
+   "precision": "3"
+  },
+  {
+   "fieldname": "section_break_ndigm",
+   "fieldtype": "Section Break",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Text Editor",
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-11-30 11:00:02.704114",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Foundry Spectro Lab Test Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
