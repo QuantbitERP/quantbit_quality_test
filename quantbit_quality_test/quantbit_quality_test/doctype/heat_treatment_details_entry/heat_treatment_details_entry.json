@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 14:37:25.010344",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "heat_no",
+  "o_a_no",
+  "quantity",
+  "remarks",
+  "column_break_bdpq",
+  "product",
+  "thickness_max",
+  "total_weight_kg",
+  "column_break_qled",
+  "product_description",
+  "balance",
+  "srl"
+ ],
+ "fields": [
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Heat No.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "o_a_no",
+   "fieldtype": "Data",
+   "label": "O. A No."
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity",
+   "precision": "3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_bdpq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product",
+   "reqd": 1
+  },
+  {
+   "fieldname": "thickness_max",
+   "fieldtype": "Float",
+   "label": "Thickness (Max)",
+   "precision": "3"
+  },
+  {
+   "fieldname": "total_weight_kg",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Total Weight (Kg)",
+   "precision": "3",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_qled",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_description",
+   "fieldtype": "Data",
+   "label": "Product Description"
+  },
+  {
+   "fieldname": "balance",
+   "fieldtype": "Float",
+   "label": "Balance"
+  },
+  {
+   "fieldname": "srl",
+   "fieldtype": "Int",
+   "label": "Srl"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:31.704834",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Heat Treatment Details Entry",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

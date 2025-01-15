@@ -1,0 +1,448 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 18:10:09.058077",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_l7tb",
+  "company",
+  "tc_no",
+  "customer",
+  "column_break_tfvz",
+  "posting_date",
+  "tc_type",
+  "grp",
+  "column_break_vbgf",
+  "heat_no",
+  "heading",
+  "dc_no",
+  "section_break_gcvj",
+  "mtc_product_details_part_a",
+  "section_break_abiu",
+  "oa_grade",
+  "column_break_fhnh",
+  "std",
+  "column_break_llbu",
+  "ibr_tc_no",
+  "column_break_nxop",
+  "date",
+  "section_break_vmna",
+  "ht_details",
+  "section_break_uhmu",
+  "remark_1",
+  "remark_3",
+  "remark_5",
+  "remark_7",
+  "remark_9",
+  "edition",
+  "column_break_tqet",
+  "remark_2",
+  "remark_4",
+  "remark_6",
+  "remark_8",
+  "remark_10",
+  "section_break_hcit",
+  "column_break_lbjl",
+  "remark",
+  "column_break_xdjm",
+  "column_break_bady",
+  "ibr",
+  "for_ibr",
+  "column_break_uciz",
+  "end_cust",
+  "for_ibr_1",
+  "tab_break_ldeb",
+  "section_break_fsgw",
+  "data_shwu",
+  "hardness",
+  "bend_test",
+  "print_ce",
+  "glen",
+  "imp_temp1",
+  "imp_temp2",
+  "ys",
+  "unit",
+  "incharge",
+  "column_break_tonx",
+  "tc_standard",
+  "bend_degree",
+  "charpy_notch",
+  "print_pre",
+  "avg_impact_minimum",
+  "avg_ind_1",
+  "avg_ind_2",
+  "material_code",
+  "conc_round",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_l7tb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "tc_no",
+   "fieldtype": "Data",
+   "label": "TC No."
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_tfvz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "tc_type",
+   "fieldtype": "Select",
+   "label": "TC Type"
+  },
+  {
+   "fieldname": "grp",
+   "fieldtype": "Select",
+   "label": "GRP"
+  },
+  {
+   "fieldname": "column_break_vbgf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Data",
+   "label": "Heat No"
+  },
+  {
+   "fieldname": "heading",
+   "fieldtype": "Select",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "dc_no",
+   "fieldtype": "Data",
+   "label": "DC No."
+  },
+  {
+   "fieldname": "section_break_gcvj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "mtc_product_details_part_a",
+   "fieldtype": "Table",
+   "label": "MTC Product Details Part - A",
+   "options": "MTC Product Details Part - A"
+  },
+  {
+   "fieldname": "section_break_abiu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "oa_grade",
+   "fieldtype": "Data",
+   "label": "OA Grade"
+  },
+  {
+   "fieldname": "column_break_fhnh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "std",
+   "fieldtype": "Data",
+   "label": "STD"
+  },
+  {
+   "fieldname": "column_break_llbu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ibr_tc_no",
+   "fieldtype": "Data",
+   "label": "IBR TC No."
+  },
+  {
+   "fieldname": "column_break_nxop",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "section_break_vmna",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "ht_details",
+   "fieldtype": "Data",
+   "label": "HT Details"
+  },
+  {
+   "fieldname": "section_break_uhmu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "remark_1",
+   "fieldtype": "Data",
+   "label": "Remark 1"
+  },
+  {
+   "fieldname": "remark_3",
+   "fieldtype": "Data",
+   "label": "Remark 3"
+  },
+  {
+   "fieldname": "remark_5",
+   "fieldtype": "Data",
+   "label": "Remark 5"
+  },
+  {
+   "fieldname": "remark_7",
+   "fieldtype": "Data",
+   "label": "Remark 7"
+  },
+  {
+   "fieldname": "remark_9",
+   "fieldtype": "Data",
+   "label": "Remark 9"
+  },
+  {
+   "fieldname": "edition",
+   "fieldtype": "Data",
+   "label": "Edition"
+  },
+  {
+   "fieldname": "column_break_tqet",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Data",
+   "label": "Remark 2"
+  },
+  {
+   "fieldname": "remark_4",
+   "fieldtype": "Data",
+   "label": "Remark 4"
+  },
+  {
+   "fieldname": "remark_6",
+   "fieldtype": "Data",
+   "label": "Remark 6"
+  },
+  {
+   "fieldname": "remark_8",
+   "fieldtype": "Data",
+   "label": "Remark 8"
+  },
+  {
+   "fieldname": "remark_10",
+   "fieldtype": "Data",
+   "label": "Remark 10"
+  },
+  {
+   "fieldname": "section_break_hcit",
+   "fieldtype": "Section Break",
+   "hide_border": 1
+  },
+  {
+   "fieldname": "column_break_lbjl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Small Text",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "column_break_xdjm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_bady",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ibr",
+   "fieldtype": "Select",
+   "label": "IBR"
+  },
+  {
+   "fieldname": "for_ibr",
+   "fieldtype": "Data",
+   "label": "For IBR"
+  },
+  {
+   "fieldname": "column_break_uciz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Data",
+   "label": "End Cust"
+  },
+  {
+   "fieldname": "for_ibr_1",
+   "fieldtype": "Data",
+   "label": "For IBR 1"
+  },
+  {
+   "fieldname": "tab_break_ldeb",
+   "fieldtype": "Tab Break",
+   "label": "Grade Info"
+  },
+  {
+   "fieldname": "section_break_fsgw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "data_shwu",
+   "fieldtype": "Data",
+   "label": "TC Grade"
+  },
+  {
+   "fieldname": "hardness",
+   "fieldtype": "Select",
+   "label": "Hardness"
+  },
+  {
+   "fieldname": "bend_test",
+   "fieldtype": "Select",
+   "label": "Bend Test"
+  },
+  {
+   "fieldname": "print_ce",
+   "fieldtype": "Select",
+   "label": "Print CE"
+  },
+  {
+   "fieldname": "glen",
+   "fieldtype": "Select",
+   "label": "G.Len"
+  },
+  {
+   "fieldname": "imp_temp1",
+   "fieldtype": "Select",
+   "label": "Imp Temp1"
+  },
+  {
+   "fieldname": "imp_temp2",
+   "fieldtype": "Select",
+   "label": "Imp Temp2"
+  },
+  {
+   "fieldname": "ys",
+   "fieldtype": "Select",
+   "label": "YS"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "incharge",
+   "fieldtype": "Select",
+   "label": "Incharge"
+  },
+  {
+   "fieldname": "column_break_tonx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tc_standard",
+   "fieldtype": "Data",
+   "label": "TC Standard"
+  },
+  {
+   "fieldname": "bend_degree",
+   "fieldtype": "Data",
+   "label": "Bend Degree"
+  },
+  {
+   "fieldname": "charpy_notch",
+   "fieldtype": "Select",
+   "label": "Charpy Notch"
+  },
+  {
+   "fieldname": "print_pre",
+   "fieldtype": "Select",
+   "label": "Print PRE"
+  },
+  {
+   "fieldname": "avg_impact_minimum",
+   "fieldtype": "Data",
+   "label": "AVG Impact Minimum"
+  },
+  {
+   "fieldname": "avg_ind_1",
+   "fieldtype": "Data",
+   "label": "AVG Ind 1"
+  },
+  {
+   "fieldname": "avg_ind_2",
+   "fieldtype": "Data",
+   "label": "AVG Ind 2"
+  },
+  {
+   "fieldname": "material_code",
+   "fieldtype": "Data",
+   "label": "Material Code"
+  },
+  {
+   "fieldname": "conc_round",
+   "fieldtype": "Select",
+   "label": "Conc Round"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "MTC Generation Part - A",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:30.328403",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "MTC Generation Part - A",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

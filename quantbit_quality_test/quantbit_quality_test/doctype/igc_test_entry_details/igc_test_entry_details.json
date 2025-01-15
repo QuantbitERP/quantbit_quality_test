@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 14:51:09.220004",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "entry_date",
+  "column_break_zokd",
+  "test_as_per",
+  "specimen_size_mm_section",
+  "test_standard",
+  "test_temp",
+  "length",
+  "width",
+  "column_break_wvwv",
+  "height",
+  "expose_time_hrs",
+  "gravity_gmccdensity",
+  "weight_gms_section",
+  "initial",
+  "final",
+  "loss",
+  "column_break_ivwh",
+  "cycle",
+  "unit",
+  "rate_of_corrosion__unit"
+ ],
+ "fields": [
+  {
+   "fieldname": "entry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Entry Date"
+  },
+  {
+   "fieldname": "column_break_zokd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test_as_per",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Test As Per "
+  },
+  {
+   "fieldname": "specimen_size_mm_section",
+   "fieldtype": "Section Break",
+   "label": "Specimen Size (mm)"
+  },
+  {
+   "fieldname": "test_standard",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Standard"
+  },
+  {
+   "fieldname": "test_temp",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Test Temp"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Length"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Width"
+  },
+  {
+   "fieldname": "column_break_wvwv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Height"
+  },
+  {
+   "fieldname": "expose_time_hrs",
+   "fieldtype": "Data",
+   "label": "Expose Time (hrs)"
+  },
+  {
+   "fieldname": "gravity_gmccdensity",
+   "fieldtype": "Data",
+   "label": "Gravity (gm/cc)/Density"
+  },
+  {
+   "fieldname": "weight_gms_section",
+   "fieldtype": "Section Break",
+   "label": "Weight (gms)"
+  },
+  {
+   "fieldname": "initial",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Initial"
+  },
+  {
+   "fieldname": "final",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Final"
+  },
+  {
+   "fieldname": "loss",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Loss"
+  },
+  {
+   "fieldname": "column_break_ivwh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "cycle",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cycle"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit"
+  },
+  {
+   "fieldname": "rate_of_corrosion__unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Rate Of Corrosion / Unit"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:31.397753",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "IGC Test Entry Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

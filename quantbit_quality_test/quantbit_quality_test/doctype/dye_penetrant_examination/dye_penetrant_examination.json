@@ -1,0 +1,358 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-14 17:36:44.204322",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_rbbs",
+  "company",
+  "grade",
+  "column_break_ginl",
+  "posting_date",
+  "po_no",
+  "column_break_jfyu",
+  "dc_no",
+  "po_date",
+  "section_break_yphw",
+  "specification",
+  "cust_procedure",
+  "column_break_ltzy",
+  "sppl_procedure",
+  "column_break_jhmz",
+  "acceptance_std",
+  "section_break_hmtf",
+  "select_hhyq",
+  "make_and_batch",
+  "life",
+  "penetrant_apply",
+  "surface_condition",
+  "temperature",
+  "light_intensity",
+  "column_break_zlum",
+  "penetrant_type",
+  "penetrant_make_and_batch",
+  "penetrant_life",
+  "penetrant_remove",
+  "penetrant_time",
+  "stage_of_test",
+  "test_date",
+  "column_break_gwsa",
+  "developer_type",
+  "developer_make_and_batch",
+  "developer_life",
+  "lightning_equipment",
+  "developer_time",
+  "test_method",
+  "extent_of_examination",
+  "section_break_obue",
+  "dp_examination_details",
+  "section_break_oyce",
+  "test_side",
+  "penetration_type",
+  "column_break_hlpe",
+  "tested_by",
+  "column_break_xivj",
+  "approved_by",
+  "column_break_kzgl",
+  "as_per",
+  "column_break_xvfw",
+  "end_cust",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_rbbs",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "label": "Grade",
+   "options": "Grade"
+  },
+  {
+   "fieldname": "column_break_ginl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Link",
+   "label": "P.O No",
+   "options": "Purchase Invoice"
+  },
+  {
+   "fieldname": "column_break_jfyu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dc_no",
+   "fieldtype": "Data",
+   "label": "D.C No."
+  },
+  {
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "label": "P.O Date"
+  },
+  {
+   "fieldname": "section_break_yphw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Select",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "cust_procedure",
+   "fieldtype": "Select",
+   "label": "Cust. Procedure"
+  },
+  {
+   "fieldname": "column_break_ltzy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sppl_procedure",
+   "fieldtype": "Select",
+   "label": "SPPL Procedure"
+  },
+  {
+   "fieldname": "column_break_jhmz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "acceptance_std",
+   "fieldtype": "Select",
+   "label": "Acceptance Std"
+  },
+  {
+   "fieldname": "section_break_hmtf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "select_hhyq",
+   "fieldtype": "Select",
+   "label": "Type"
+  },
+  {
+   "fieldname": "make_and_batch",
+   "fieldtype": "Select",
+   "label": "Make and Batch"
+  },
+  {
+   "fieldname": "life",
+   "fieldtype": "Select",
+   "label": "Life"
+  },
+  {
+   "fieldname": "penetrant_apply",
+   "fieldtype": "Select",
+   "label": "Penetrant Apply"
+  },
+  {
+   "fieldname": "surface_condition",
+   "fieldtype": "Select",
+   "label": "Surface Condition"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Data",
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "light_intensity",
+   "fieldtype": "Data",
+   "label": "Light Intensity"
+  },
+  {
+   "fieldname": "column_break_zlum",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "penetrant_type",
+   "fieldtype": "Select",
+   "label": "Penetrant Type"
+  },
+  {
+   "fieldname": "penetrant_make_and_batch",
+   "fieldtype": "Select",
+   "label": "Penetrant Make and Batch"
+  },
+  {
+   "fieldname": "penetrant_life",
+   "fieldtype": "Select",
+   "label": "Penetrant Life"
+  },
+  {
+   "fieldname": "penetrant_remove",
+   "fieldtype": "Select",
+   "label": "Penetrant Remove"
+  },
+  {
+   "fieldname": "penetrant_time",
+   "fieldtype": "Select",
+   "label": "Penetrant Time"
+  },
+  {
+   "fieldname": "stage_of_test",
+   "fieldtype": "Select",
+   "label": "Stage Of Test"
+  },
+  {
+   "fieldname": "test_date",
+   "fieldtype": "Date",
+   "label": "Test Date"
+  },
+  {
+   "fieldname": "column_break_gwsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "developer_type",
+   "fieldtype": "Select",
+   "label": "Developer Type"
+  },
+  {
+   "fieldname": "developer_make_and_batch",
+   "fieldtype": "Select",
+   "label": "Developer Make and Batch"
+  },
+  {
+   "fieldname": "developer_life",
+   "fieldtype": "Select",
+   "label": "Developer Life"
+  },
+  {
+   "fieldname": "lightning_equipment",
+   "fieldtype": "Select",
+   "label": "Lightning Equipment"
+  },
+  {
+   "fieldname": "developer_time",
+   "fieldtype": "Select",
+   "label": "Developer Time"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Select",
+   "label": "Test Method"
+  },
+  {
+   "fieldname": "extent_of_examination",
+   "fieldtype": "Select",
+   "label": "Extent Of Examination"
+  },
+  {
+   "fieldname": "section_break_obue",
+   "fieldtype": "Section Break",
+   "label": "DP Examination Details"
+  },
+  {
+   "fieldname": "dp_examination_details",
+   "fieldtype": "Table",
+   "label": "DP Examination Details",
+   "options": "DP Examination Details"
+  },
+  {
+   "fieldname": "section_break_oyce",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "test_side",
+   "fieldtype": "Select",
+   "label": "Test Side"
+  },
+  {
+   "fieldname": "penetration_type",
+   "fieldtype": "Select",
+   "label": "Penetration Type"
+  },
+  {
+   "fieldname": "column_break_hlpe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tested_by",
+   "fieldtype": "Link",
+   "label": "Tested By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_xivj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_kzgl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "as_per",
+   "fieldtype": "Select",
+   "label": "As Per"
+  },
+  {
+   "fieldname": "column_break_xvfw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Data",
+   "label": "End Cust"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Dye Penetrant Examination",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:28.709225",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Dye Penetrant Examination",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

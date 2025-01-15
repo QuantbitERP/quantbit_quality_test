@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-10 18:08:45.935748",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "multiple_temperature_section",
+  "temperature",
+  "column_break_svts",
+  "yn"
+ ],
+ "fields": [
+  {
+   "fieldname": "multiple_temperature_section",
+   "fieldtype": "Section Break",
+   "label": "Multiple Temperature"
+  },
+  {
+   "fieldname": "temperature",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Temperature"
+  },
+  {
+   "fieldname": "column_break_svts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "yn",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "Y/N"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:29.901192",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Pitting Multiple Temp Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,103 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-14 18:27:21.522436",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "po_no",
+  "heat_no",
+  "item",
+  "description",
+  "quantity",
+  "column_break_vlpe",
+  "mp_no",
+  "max_thick",
+  "cast_srl",
+  "result",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "PO No.",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Heat No.",
+   "options": "Pouring"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "item.item_name",
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Quantity"
+  },
+  {
+   "fieldname": "column_break_vlpe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "mp_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "MP No."
+  },
+  {
+   "fieldname": "max_thick",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Max Thick"
+  },
+  {
+   "fieldname": "cast_srl",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cast Srl"
+  },
+  {
+   "fieldname": "result",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Result"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:28.570130",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "MP Examination Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
