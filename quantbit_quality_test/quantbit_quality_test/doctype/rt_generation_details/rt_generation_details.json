@@ -1,0 +1,157 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-13 16:53:27.816434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "film_srl",
+  "source_location",
+  "no_of_films",
+  "no_of_expo",
+  "location",
+  "thickugmm",
+  "thick_report",
+  "design",
+  "essential_wire__hole_type",
+  "location_2",
+  "column_break_qqwb",
+  "sfd_mm",
+  "fodmm",
+  "source",
+  "source_report",
+  "type",
+  "width",
+  "length",
+  "ug",
+  "technique"
+ ],
+ "fields": [
+  {
+   "fieldname": "film_srl",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Film Srl"
+  },
+  {
+   "fieldname": "source_location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source Location"
+  },
+  {
+   "fieldname": "no_of_films",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No Of Films"
+  },
+  {
+   "fieldname": "no_of_expo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "No Of Expo."
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location 1"
+  },
+  {
+   "fieldname": "thickugmm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Thick(UG)(mm)"
+  },
+  {
+   "fieldname": "thick_report",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Thick (Report)"
+  },
+  {
+   "fieldname": "design",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Design"
+  },
+  {
+   "fieldname": "essential_wire__hole_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Essential Wire / Hole Type"
+  },
+  {
+   "fieldname": "location_2",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location 2"
+  },
+  {
+   "fieldname": "column_break_qqwb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sfd_mm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "SFD (mm)"
+  },
+  {
+   "fieldname": "fodmm",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "FOD(mm)"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Source"
+  },
+  {
+   "fieldname": "source_report",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Source (Report)"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type"
+  },
+  {
+   "fieldname": "width",
+   "fieldtype": "Data",
+   "label": "Width"
+  },
+  {
+   "fieldname": "length",
+   "fieldtype": "Data",
+   "label": "Length"
+  },
+  {
+   "fieldname": "ug",
+   "fieldtype": "Data",
+   "label": "Ug"
+  },
+  {
+   "fieldname": "technique",
+   "fieldtype": "Data",
+   "label": "Technique"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:29.436051",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "RT Generation Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

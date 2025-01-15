@@ -1,0 +1,288 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-13 15:40:20.940677",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_17hj",
+  "company",
+  "item",
+  "item_name",
+  "column_break_fdms",
+  "rss_no",
+  "cust_proc",
+  "end_cust",
+  "column_break_diqk",
+  "date",
+  "accpt_std",
+  "film_size_in",
+  "section_break_xseh",
+  "area_cover",
+  "ir",
+  "coli",
+  "grade",
+  "column_break_uhoo",
+  "rev",
+  "film_density",
+  "apprvl_remarks",
+  "remark",
+  "column_break_uaxx",
+  "penetrameter",
+  "appr_date",
+  "our_procedure",
+  "column_break_ajep",
+  "evaluation_std",
+  "surf_condition",
+  "apprvl_cust_rss_no",
+  "section_break_wcxx",
+  "rt_generation_details",
+  "section_break_mduf",
+  "obsolete",
+  "rt_no",
+  "column_break_uldt",
+  "total_ir__192",
+  "co_60",
+  "linac_9",
+  "amended_from",
+  "column_break_mavl",
+  "remark_2"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_17hj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fetch_from": "item.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "label": "Item Name"
+  },
+  {
+   "fieldname": "column_break_fdms",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rss_no",
+   "fieldtype": "Int",
+   "label": "RSS NO."
+  },
+  {
+   "fieldname": "cust_proc",
+   "fieldtype": "Select",
+   "label": "Cust Proc."
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Data",
+   "label": "End Cust"
+  },
+  {
+   "fieldname": "column_break_diqk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "accpt_std",
+   "fieldtype": "Select",
+   "label": "Accpt Std"
+  },
+  {
+   "fieldname": "film_size_in",
+   "fieldtype": "Select",
+   "label": "Film Size in "
+  },
+  {
+   "fieldname": "section_break_xseh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "area_cover",
+   "fieldtype": "Data",
+   "label": "Area Cover"
+  },
+  {
+   "fieldname": "ir",
+   "fieldtype": "Data",
+   "label": "IR"
+  },
+  {
+   "fieldname": "coli",
+   "fieldtype": "Data",
+   "label": "Co/Li"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "label": "Grade",
+   "options": "Grade"
+  },
+  {
+   "fieldname": "column_break_uhoo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rev",
+   "fieldtype": "Data",
+   "label": "Rev"
+  },
+  {
+   "fieldname": "film_density",
+   "fieldtype": "Data",
+   "label": "Film Density"
+  },
+  {
+   "fieldname": "apprvl_remarks",
+   "fieldtype": "Data",
+   "label": "Apprvl Remarks"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "label": "Remark"
+  },
+  {
+   "fieldname": "column_break_uaxx",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "penetrameter",
+   "fieldtype": "Select",
+   "label": "Penetrameter"
+  },
+  {
+   "fieldname": "appr_date",
+   "fieldtype": "Date",
+   "label": "Appr Date"
+  },
+  {
+   "fieldname": "our_procedure",
+   "fieldtype": "Select",
+   "label": "Our Procedure"
+  },
+  {
+   "fieldname": "column_break_ajep",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "evaluation_std",
+   "fieldtype": "Select",
+   "label": "Evaluation Std"
+  },
+  {
+   "fieldname": "surf_condition",
+   "fieldtype": "Select",
+   "label": "Surf Condition"
+  },
+  {
+   "fieldname": "apprvl_cust_rss_no",
+   "fieldtype": "Data",
+   "label": "Apprvl Cust RSS No"
+  },
+  {
+   "fieldname": "section_break_wcxx",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "rt_generation_details",
+   "fieldtype": "Table",
+   "label": "RT Generation Details",
+   "options": "RT Generation Details"
+  },
+  {
+   "fieldname": "section_break_mduf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "obsolete",
+   "fieldtype": "Select",
+   "label": "Obsolete"
+  },
+  {
+   "fieldname": "rt_no",
+   "fieldtype": "Data",
+   "label": "RT No."
+  },
+  {
+   "fieldname": "column_break_uldt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_ir__192",
+   "fieldtype": "Data",
+   "label": "Total IR  192"
+  },
+  {
+   "fieldname": "co_60",
+   "fieldtype": "Data",
+   "label": "Co 60"
+  },
+  {
+   "fieldname": "linac_9",
+   "fieldtype": "Data",
+   "label": "Linac 9"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Radiographic Shooting Sketch Generation",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_mavl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remark_2",
+   "fieldtype": "Small Text",
+   "label": "Remark 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:29.230829",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Radiographic Shooting Sketch Generation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
