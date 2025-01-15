@@ -1,0 +1,173 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 15:11:44.232332",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vlh0",
+  "company",
+  "customer",
+  "heat_no",
+  "date",
+  "customer_name",
+  "grade",
+  "po_details",
+  "remarks",
+  "column_break_jrdz",
+  "test_specification",
+  "boiling_specification",
+  "start_on",
+  "end_on",
+  "boiling_duration",
+  "former_die_for_bend_test",
+  "format_no",
+  "deg_bend_test",
+  "sensitizing_treatment_yesno",
+  "end_cust",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_vlh0",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Link",
+   "label": "Heat No",
+   "options": "Pouring"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "label": "Grade",
+   "options": "Grade"
+  },
+  {
+   "fieldname": "po_details",
+   "fieldtype": "Table",
+   "label": "PO Details",
+   "options": "PO Details"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "column_break_jrdz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "test_specification",
+   "fieldtype": "Data",
+   "label": "Test Specification"
+  },
+  {
+   "fieldname": "boiling_specification",
+   "fieldtype": "Data",
+   "label": "Boiling Specification"
+  },
+  {
+   "fieldname": "start_on",
+   "fieldtype": "Datetime",
+   "label": "Start On"
+  },
+  {
+   "fieldname": "end_on",
+   "fieldtype": "Datetime",
+   "label": "End On"
+  },
+  {
+   "fieldname": "boiling_duration",
+   "fieldtype": "Data",
+   "label": "Boiling Duration"
+  },
+  {
+   "fieldname": "former_die_for_bend_test",
+   "fieldtype": "Data",
+   "label": "Former Die For Bend Test"
+  },
+  {
+   "fieldname": "format_no",
+   "fieldtype": "Data",
+   "label": "Format No."
+  },
+  {
+   "fieldname": "deg_bend_test",
+   "fieldtype": "Data",
+   "label": "Deg. Bend Test"
+  },
+  {
+   "fieldname": "sensitizing_treatment_yesno",
+   "fieldtype": "Select",
+   "label": "Sensitizing Treatment Yes/No"
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Link",
+   "label": "End Cust",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "I G C T Practice E Test Certification",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:31.081705",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "I G C T Practice E Test Certification",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

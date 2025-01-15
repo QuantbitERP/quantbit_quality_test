@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 15:27:16.381551",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "po_no",
+  "column_break_kptc",
+  "po_date",
+  "column_break_fjrm",
+  "po_saved"
+ ],
+ "fields": [
+  {
+   "fieldname": "po_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "PO No."
+  },
+  {
+   "fieldname": "column_break_kptc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "PO Date"
+  },
+  {
+   "fieldname": "column_break_fjrm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "po_saved",
+   "fieldtype": "Check",
+   "in_list_view": 1,
+   "label": "PO Saved"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:31.197899",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "PO Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

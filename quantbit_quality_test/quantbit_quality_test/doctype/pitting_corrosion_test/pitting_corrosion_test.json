@@ -1,0 +1,192 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-10 14:41:24.359774",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_9vrq",
+  "company",
+  "report_no",
+  "temp",
+  "customer",
+  "column_break_axgk",
+  "posting_date",
+  "heat_no",
+  "duration",
+  "customer_name",
+  "section_break_eiia",
+  "pitting_corrosion_details",
+  "column_break_gcru",
+  "pitting_multiple_temp",
+  "section_break_ecxe",
+  "testing_standard",
+  "report_type",
+  "note",
+  "for_tpi",
+  "unit",
+  "column_break_hkgw",
+  "accpt_crit",
+  "samp_prep",
+  "end_cust",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_9vrq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "report_no",
+   "fieldtype": "Data",
+   "label": "Report No."
+  },
+  {
+   "fieldname": "temp",
+   "fieldtype": "Data",
+   "label": "Temp"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "column_break_axgk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Link",
+   "label": "Heat No.",
+   "options": "Pouring"
+  },
+  {
+   "fieldname": "duration",
+   "fieldtype": "Data",
+   "label": "Duration"
+  },
+  {
+   "fetch_from": "customer.customer_name",
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "section_break_ecxe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "testing_standard",
+   "fieldtype": "Select",
+   "label": "Testing Standard"
+  },
+  {
+   "fieldname": "report_type",
+   "fieldtype": "Select",
+   "label": "Report Type"
+  },
+  {
+   "fieldname": "note",
+   "fieldtype": "Data",
+   "label": "Note"
+  },
+  {
+   "fieldname": "for_tpi",
+   "fieldtype": "Data",
+   "label": "For TPI"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Select",
+   "label": "Unit"
+  },
+  {
+   "fieldname": "column_break_hkgw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "accpt_crit",
+   "fieldtype": "Data",
+   "label": "Accpt Crit"
+  },
+  {
+   "fieldname": "samp_prep",
+   "fieldtype": "Data",
+   "label": "Samp Prep"
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Data",
+   "label": "End Cust"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Pitting Corrosion Test",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_eiia",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_gcru",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pitting_corrosion_details",
+   "fieldtype": "Table",
+   "label": "Pitting Corrosion Details",
+   "options": "Pitting Corrosion Details"
+  },
+  {
+   "fieldname": "pitting_multiple_temp",
+   "fieldtype": "Table",
+   "label": "Pitting Multiple Temp",
+   "options": "Pitting Multiple Temp Details"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-11 14:45:54.653238",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Pitting Corrosion Test",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 14:38:31.202274",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "element_name",
+  "minimum",
+  "act_value",
+  "column_break_ndyf",
+  "maximum",
+  "text"
+ ],
+ "fields": [
+  {
+   "fieldname": "element_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Element Name"
+  },
+  {
+   "fieldname": "minimum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Minimum"
+  },
+  {
+   "fieldname": "act_value",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Act. Value",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ndyf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "maximum",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Maximum"
+  },
+  {
+   "fieldname": "text",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Text"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:31.618260",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Chemical Result Entry Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-09 16:29:14.744795",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "product_details_section",
+  "heat_no",
+  "product",
+  "o_a_no",
+  "srl_no",
+  "column_break_ixcq",
+  "dpmp_no",
+  "rt_no",
+  "location",
+  "observed_value"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_details_section",
+   "fieldtype": "Section Break",
+   "label": "Product Details"
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Heat No.",
+   "options": "Pouring",
+   "reqd": 1
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product"
+  },
+  {
+   "fieldname": "o_a_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "O. A. No."
+  },
+  {
+   "fieldname": "srl_no",
+   "fieldtype": "Int",
+   "label": "Srl No."
+  },
+  {
+   "fieldname": "column_break_ixcq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dpmp_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DP/MP No."
+  },
+  {
+   "fieldname": "rt_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RT No."
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  },
+  {
+   "fieldname": "observed_value",
+   "fieldtype": "Data",
+   "label": "Observed Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:30.949499",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Product Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

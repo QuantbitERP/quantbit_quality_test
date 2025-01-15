@@ -1,0 +1,108 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-14 17:21:01.836424",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "oa_no",
+  "oa_srl",
+  "heat_no",
+  "item",
+  "description",
+  "qty",
+  "column_break_edat",
+  "dp_nos",
+  "max_thick",
+  "cast_srl",
+  "findings",
+  "remark"
+ ],
+ "fields": [
+  {
+   "fieldname": "oa_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "OA No."
+  },
+  {
+   "fieldname": "oa_srl",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "OA Srl."
+  },
+  {
+   "fieldname": "heat_no",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Heat No.",
+   "options": "Pouring"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "column_break_edat",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "dp_nos",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "DP Nos."
+  },
+  {
+   "fieldname": "max_thick",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Max Thick"
+  },
+  {
+   "fieldname": "cast_srl",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Cast Srl"
+  },
+  {
+   "fieldname": "findings",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Findings"
+  },
+  {
+   "fieldname": "remark",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Remark"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:28.854512",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "DP Examination Details",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

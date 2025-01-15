@@ -1,0 +1,284 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-01-14 18:33:41.139548",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_z9kc",
+  "company",
+  "column_break_dfwu",
+  "posting_date",
+  "column_break_fsvc",
+  "invoice_no",
+  "dc_no",
+  "column_break_ivfl",
+  "grade",
+  "dc_date",
+  "section_break_jtaf",
+  "specification",
+  "accept_standard",
+  "test_type",
+  "prod_specing",
+  "light_equip",
+  "column_break_itmy",
+  "surface_condition",
+  "current_used",
+  "mag_current",
+  "cover_area",
+  "max_light_intensity",
+  "test_date",
+  "column_break_egos",
+  "type_of_magnetise",
+  "test_method",
+  "demagnetise",
+  "sppl_proc",
+  "customer_procedure",
+  "mp_examination_details_section",
+  "mp_examination_details",
+  "section_break_mefk",
+  "po_date",
+  "as_per",
+  "column_break_htsf",
+  "tested_by",
+  "column_break_ayjm",
+  "approved_by",
+  "column_break_klub",
+  "end_cust",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_z9kc",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_dfwu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "posting_date",
+   "fieldtype": "Date",
+   "label": "Posting Date"
+  },
+  {
+   "fieldname": "column_break_fsvc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "invoice_no",
+   "fieldtype": "Link",
+   "label": "Invoice No.",
+   "options": "Purchase Invoice"
+  },
+  {
+   "fieldname": "dc_no",
+   "fieldtype": "Link",
+   "label": "D.C No.",
+   "options": "Delivery Note"
+  },
+  {
+   "fieldname": "column_break_ivfl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "grade",
+   "fieldtype": "Link",
+   "label": "Grade",
+   "options": "Grade"
+  },
+  {
+   "fieldname": "dc_date",
+   "fieldtype": "Date",
+   "label": "D.C Date"
+  },
+  {
+   "fieldname": "section_break_jtaf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "specification",
+   "fieldtype": "Select",
+   "label": "Specification"
+  },
+  {
+   "fieldname": "accept_standard",
+   "fieldtype": "Select",
+   "label": "Accept Standard"
+  },
+  {
+   "fieldname": "test_type",
+   "fieldtype": "Select",
+   "label": "Test Type"
+  },
+  {
+   "fieldname": "prod_specing",
+   "fieldtype": "Select",
+   "label": "Prod Specing"
+  },
+  {
+   "fieldname": "light_equip",
+   "fieldtype": "Select",
+   "label": "Light Equip"
+  },
+  {
+   "fieldname": "column_break_itmy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "surface_condition",
+   "fieldtype": "Select",
+   "label": "Surface Condition"
+  },
+  {
+   "fieldname": "current_used",
+   "fieldtype": "Select",
+   "label": "Current Used"
+  },
+  {
+   "fieldname": "mag_current",
+   "fieldtype": "Select",
+   "label": "Mag. Current"
+  },
+  {
+   "fieldname": "cover_area",
+   "fieldtype": "Select",
+   "label": "Cover. Area"
+  },
+  {
+   "fieldname": "max_light_intensity",
+   "fieldtype": "Data",
+   "label": "Max Light Intensity"
+  },
+  {
+   "fieldname": "test_date",
+   "fieldtype": "Date",
+   "label": "Test Date"
+  },
+  {
+   "fieldname": "column_break_egos",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "type_of_magnetise",
+   "fieldtype": "Select",
+   "label": "Type Of Magnetise"
+  },
+  {
+   "fieldname": "test_method",
+   "fieldtype": "Select",
+   "label": "Test Method"
+  },
+  {
+   "fieldname": "demagnetise",
+   "fieldtype": "Select",
+   "label": "Demagnetise"
+  },
+  {
+   "fieldname": "sppl_proc",
+   "fieldtype": "Select",
+   "label": "SPPL Proc."
+  },
+  {
+   "fieldname": "customer_procedure",
+   "fieldtype": "Select",
+   "label": "Customer Procedure"
+  },
+  {
+   "fieldname": "mp_examination_details_section",
+   "fieldtype": "Section Break",
+   "label": "MP Examination Details"
+  },
+  {
+   "fieldname": "mp_examination_details",
+   "fieldtype": "Table",
+   "label": "MP Examination Details",
+   "options": "MP Examination Details"
+  },
+  {
+   "fieldname": "section_break_mefk",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "po_date",
+   "fieldtype": "Date",
+   "label": "PO Date"
+  },
+  {
+   "fieldname": "as_per",
+   "fieldtype": "Select",
+   "label": "As Per"
+  },
+  {
+   "fieldname": "column_break_htsf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tested_by",
+   "fieldtype": "Link",
+   "label": "Tested By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_ayjm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "column_break_klub",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "end_cust",
+   "fieldtype": "Data",
+   "label": "End Cust"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Magnetic Particle Examination",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2025-01-15 14:47:28.231265",
+ "modified_by": "Administrator",
+ "module": "Quantbit Quality Test",
+ "name": "Magnetic Particle Examination",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
