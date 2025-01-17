@@ -227,3 +227,12 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+   
+    {
+        "doctype": "Workspace",
+        "filters": [
+            ["name", "in", ["Quality and Lab Testing"]]
+        ],
+    },
+]

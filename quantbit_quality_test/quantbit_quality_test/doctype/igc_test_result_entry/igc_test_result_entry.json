@@ -28,7 +28,7 @@
    "fieldname": "grade",
    "fieldtype": "Link",
    "label": "Grade",
-   "options": "Grade"
+   "options": "Grade Master"
   },
   {
    "fieldname": "column_break_tzuf",
@@ -75,7 +75,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-01-15 14:47:31.284375",
+ "modified": "2025-01-15 18:36:23.369886",
  "modified_by": "Administrator",
  "module": "Quantbit Quality Test",
  "name": "IGC Test Result Entry",
